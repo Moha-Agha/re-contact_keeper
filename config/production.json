@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://niceSuperUser:Mongodb1@xx!@nicedb.glfua.mongodb.net/niceDB?retryWrites=true&w=majority",
-  "jwtSecret": "123456"
+  "mongoURI": "process.env.mongoURI",
+  "jwtSecret": "process.env.jwtSecret"
 }
